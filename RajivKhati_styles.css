@@ -1,0 +1,139 @@
+/* Page Background Color */
+body {
+    background-color: #61e64f; /* Light green for background */
+  }
+  
+  /* Headers (H1 and H2) */
+  h1 {
+    text-align: center;
+    color: #db4181; /* purple for H1 */
+    font-size: 2em;
+    font-family: Arial, sans-serif; 
+  }
+  
+  h2 {
+    color: #007bff; /* Blue for H2 */
+    font-size: 1.5em;
+    font-family: Arial, sans-serif; 
+  }
+  
+  /* Body and Paragraph Text */
+  p,
+  ul {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666666; /* Gray for body text */
+  }
+  
+  /* Links */
+  a {
+    color: #007bff; /* Blue for links */
+    text-decoration: none;
+  }
+  
+  a:hover,
+  a:active {
+    color: #0056b3; /* Darker blue on hover/active */
+  }
+  
+  /* Grid Layout */
+  
+  .container {
+    display: flex; /* Arrange grid items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap to multiple lines */
+    justify-content: space-between; /* Distribute items evenly */
+    margin: 0 auto; /* Center the grid container horizontally */
+    width: 80%; /* Adjust width as desired */
+  }
+  
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6 {
+    flex: 1 0 20%; /* Set width for each grid item */
+    margin: 10px; /* Add spacing between items */
+    padding: 15px; /* Add padding inside each item */
+    border: 1px solid #ddd; /* Add a light border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text within each item */
+  }
+  
+  /* Individual Grid Tile Background Colors with Transparency */
+  .grid-1 {
+    background-color: rgba(255, 192, 203, 0.8); /* Light pink */
+  }
+  
+  .grid-2 {
+    background-color: rgba(173, 216, 230, 0.8); /* Light blue */
+  }
+  
+  .grid-3 {
+    background-color: rgba(255, 235, 153, 0.8); /* Light yellow */
+  }
+  
+  .grid-4 {
+    background-color: rgba(204, 229, 225, 0.8); /* Light aqua */
+  }
+  
+  .grid-5 {
+    background-color: rgba(189, 216, 249, 0.8); /* Light blueish */
+  }
+  
+  .grid-6 {
+    background-color: rgba(221, 160, 221, 0.8); /* Light purple */
+  }
+  
+  /* Hover Effect for Grid Tiles */
+  .grid-1:hover {
+    background-color: rgba(255, 162, 173, 0.6); 
+  }
+  
+  .grid-2:hover {
+    background-color: rgba(144, 189, 202, 0.6); 
+  }
+  
+  .grid-3:hover {
+    background-color: rgba(230, 209, 123, 0.6); 
+  }
+  
+  .grid-4:hover {
+    background-color: rgba(179, 202, 197, 0.6); 
+  }
+  
+  .grid-5:hover {
+    background-color: rgba(163, 189, 221, 0.6); 
+  }
+  
+  .grid-6:hover {
+    background-color: rgba(163, 189, 221, 0.6); 
+  }
+
+  /* Differentiate between grids */
+.container .grid-1 { background-color: #f0f0f0; }
+.container .grid-2 { background-color: #e0e0e0; }
+.container .grid-3 { background-color: #d0d0d0; }
+.container .grid-4 { background-color: #c0c0c0; }
+.container .grid-5 { background-color: #b0b0b0; }
+.container .grid-6 { background-color: #a0a0a0; }
+
+/* Button Styling */
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker Green */
+}
